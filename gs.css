@@ -1,5 +1,5 @@
-p.direction{font-family:monospacey;size: 12px;color: black;background-color: lightgray;}
-p.speech{font-family:Arial, Helvetica, sans-serif;size: 14;color: black;}
+p.direction{font-family:'Times New Roman', Times, serif;size: 12px;color: black;background-color: lightgray;}
+p.speech{font-family:Arial, Helvetica, sans-serif;size: 14px;color: black;}
 p.direction:hover{background-color: cadetblue;}
 .STRUBEL{color: aqua;}
 .FRAULINDEMANN{color: blueviolet;}
@@ -9,3 +9,20 @@ p.direction:hover{background-color: cadetblue;}
 .LIDDY{color: beige;}
 .BARONESSVONBROOK{color: aquamarine;}
 .THEPRINCESS{color: red;}
+.table,th,td{
+    border-collapse: collapse;
+    border-color: blue;
+    padding-left: 19px;
+    padding-right:19px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 19px;
+    margin-right: 19px;
+    border: 1px solid;
+    margin-bottom: 18px;
+}
+tr:nth-child(odd){background-color: bisque;}
