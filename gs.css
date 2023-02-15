@@ -26,3 +26,5 @@ p.direction:hover{background-color: cadetblue;}
     margin-bottom: 18px;
 }
 tr:nth-child(odd){background-color: bisque;}
+.STRUBEL:hover{text-shadow: 4px 4px chocolate}
+.FRAULINDEMANN:hover{text-shadow: 4px 4px red}
