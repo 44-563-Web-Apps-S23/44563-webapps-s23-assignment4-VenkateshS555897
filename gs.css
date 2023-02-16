@@ -28,3 +28,22 @@ p.direction:hover{background-color: cadetblue;}
 tr:nth-child(odd){background-color: bisque;}
 .STRUBEL:hover{text-shadow: 4px 4px chocolate}
 .FRAULINDEMANN:hover{text-shadow: 4px 4px red}
+
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li{
+    float: left;
+    color:black;
+    background-color: aqua;
+}
+ul.navbar-horizontal a{
+    display: block;
+    padding: 8px;
+}
+ul.navbar-horizontal a:hover{
+    background-color: #555;
+    color: white;
+}
